@@ -1,0 +1,6 @@
+torch>=2.0
+numpy<2
+opencv-python
+scipy
+netCDF4
+awscli
