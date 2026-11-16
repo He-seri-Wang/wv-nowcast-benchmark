@@ -1,0 +1,44 @@
+{
+  "n_cases": {
+    "1": 151,
+    "2": 146,
+    "3": 141
+  },
+  "leads_min": {
+    "20": {
+      "rmse_persistence": 0.7375,
+      "rmse_flow": 0.4053,
+      "gain_abs": 0.3322,
+      "gain_rel_%": 45.04,
+      "se_day_bootstrap": 0.1106,
+      "n": 151,
+      "n_days": 3
+    },
+    "40": {
+      "rmse_persistence": 0.9426,
+      "rmse_flow": 0.6483,
+      "gain_abs": 0.2943,
+      "gain_rel_%": 31.23,
+      "se_day_bootstrap": 0.091,
+      "n": 146,
+      "n_days": 3
+    },
+    "60": {
+      "rmse_persistence": 1.0969,
+      "rmse_flow": 0.8385,
+      "gain_abs": 0.2584,
+      "gain_rel_%": 23.56,
+      "se_day_bootstrap": 0.0784,
+      "n": 141,
+      "n_days": 3
+    }
+  },
+  "gate_40_60min": {
+    "rmse_persistence": 1.0213,
+    "rmse_flow": 0.7478,
+    "gain": 0.2735,
+    "se": 0.0847,
+    "gate": "PASS",
+    "threshold_2se": 0.1693
+  }
+}

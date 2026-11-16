@@ -1,0 +1,74 @@
+{
+  "n_cases": {
+    "1": 2996,
+    "2": 2974,
+    "3": 2954,
+    "4": 2938,
+    "5": 2924,
+    "6": 2910
+  },
+  "leads_min": {
+    "10": {
+      "rmse_persistence": 0.5236,
+      "rmse_flow": 0.3391,
+      "gain_abs": 0.1845,
+      "gain_rel_%": 35.23,
+      "se_day_bootstrap": 0.0285,
+      "n": 2996,
+      "n_days": 22
+    },
+    "20": {
+      "rmse_persistence": 0.7599,
+      "rmse_flow": 0.5649,
+      "gain_abs": 0.195,
+      "gain_rel_%": 25.66,
+      "se_day_bootstrap": 0.0319,
+      "n": 2974,
+      "n_days": 22
+    },
+    "30": {
+      "rmse_persistence": 0.9188,
+      "rmse_flow": 0.7385,
+      "gain_abs": 0.1803,
+      "gain_rel_%": 19.63,
+      "se_day_bootstrap": 0.0331,
+      "n": 2954,
+      "n_days": 22
+    },
+    "40": {
+      "rmse_persistence": 1.0446,
+      "rmse_flow": 0.8827,
+      "gain_abs": 0.162,
+      "gain_rel_%": 15.5,
+      "se_day_bootstrap": 0.0321,
+      "n": 2938,
+      "n_days": 22
+    },
+    "50": {
+      "rmse_persistence": 1.1523,
+      "rmse_flow": 1.0088,
+      "gain_abs": 0.1435,
+      "gain_rel_%": 12.45,
+      "se_day_bootstrap": 0.0318,
+      "n": 2924,
+      "n_days": 22
+    },
+    "60": {
+      "rmse_persistence": 1.2479,
+      "rmse_flow": 1.1224,
+      "gain_abs": 0.1255,
+      "gain_rel_%": 10.06,
+      "se_day_bootstrap": 0.0314,
+      "n": 2910,
+      "n_days": 22
+    }
+  },
+  "gate_30_60min": {
+    "rmse_persistence": 1.0971,
+    "rmse_flow": 0.9481,
+    "gain": 0.149,
+    "se": 0.0325,
+    "gate": "PASS",
+    "threshold_2se": 0.0651
+  }
+}
