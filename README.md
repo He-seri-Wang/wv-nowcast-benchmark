@@ -31,6 +31,12 @@ Everything here is reproducible end-to-end from public, credential-free data
 
 ## Results
 
+![Per-lead RMSE, both basins](figs/per_lead_rmse.png)
+
+![v2 advantage snapshot: truth vs persistence vs U-Net](figs/v2_advantage_snapshot.png)
+
+*(regenerate with `python scripts/make_figs.py`)*
+
 ### Dynamics gate (T3): does the field have learnable motion? — PASS
 
 Phase-correlation flow vs persistence, 21 days at 10-min cadence
